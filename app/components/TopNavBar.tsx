@@ -28,7 +28,7 @@ export const TopNavBar = () => {
               priority
             />
             <h1 className="text-xl whitespace-nowrap font-bold text-primary">
-              Resume Builder & Parser
+            CareerCanvas
             </h1>
           </div>
         </Link>
