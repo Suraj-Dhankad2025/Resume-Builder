@@ -1,5 +1,5 @@
 {
-  "name": "resumebuilder",
+  "name": "resumebuilderparser",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,24 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
+    "@react-pdf/layout": "3.6.2",
+    "@react-pdf/renderer": "3.3.4",
     "@reduxjs/toolkit": "^2.0.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/pdfjs-dist": "^2.10.378",
     "next": "14.0.4",
     "pdfjs": "^2.5.0",
     "pdfjs-dist": "^3.7.107",
     "react": "^18",
+    "react-contenteditable": "^3.3.7",
     "react-dom": "^18",
-    "react-icons": "^5.0.1",
-    "react-redux": "^9.0.4"
+    "react-frame-component": "^5.2.6",
+    "react-redux": "^9.0.4",
+    "tailwind-scrollbar": "^3.0.5"
+  },
+  "overrides": {
+    "@react-pdf/image": "2.2.3",
+    "@react-pdf/pdfkit": "3.0.4"
   },
   "devDependencies": {
     "@types/node": "^20",

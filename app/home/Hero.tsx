@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FlexboxSpacer } from "../components/FlexboxSpacer";
-// import { AutoTypingResume } from "./AutoTypingResume";
+import { AutoTypingResume } from "./AutoTypingResume";
 
 export const Hero = () => {
   return (
@@ -13,7 +13,7 @@ export const Hero = () => {
           resume easily
         </h1>
         <p className="mt-3 text-lg lg:mt-5 lg:text-xl">
-          With CareerCanvas
+          With this powerful resume builder
         </p>
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
           Create Resume
@@ -22,14 +22,13 @@ export const Hero = () => {
         <p className="mt-3 text-sm text-gray-600 lg:mt-36">
           Already have a resume? Test its ATS readability with the{" "}
           <Link href="/resume-parser" className="underline underline-offset-2">
-          CareerCanvas
+            resume parser
           </Link>
         </p>
       </div>
       <FlexboxSpacer maxWidth={100} minWidth={50} className="hidden lg:block" />{" "}
       <div className="mt-6 flex justify-center lg:mt-4 lg:block lg:grow">
-        {/* <AutoTypingResume /> */}
-        Auto fill resume
+        <AutoTypingResume />
       </div>
     </section>
   );

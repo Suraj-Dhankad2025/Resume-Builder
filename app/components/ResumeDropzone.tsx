@@ -204,4 +204,4 @@ const getFileSizeString = (filesizeB: number) => {
   }
 };
 
-export default ResumeDropzone;   
+export default ResumeDropzone;

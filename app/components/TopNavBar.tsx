@@ -27,14 +27,14 @@ export const TopNavBar = () => {
               className="h-8 w-full"
               priority
             />
-            <h1 className="text-xl whitespace-nowrap font-bold text-primary">
+            <h1 className="text-2xl whitespace-nowrap font-bold text-primary">
             CareerCanvas
             </h1>
           </div>
         </Link>
                 <nav
                     aria-label="Site Nav Bar"
-                    className="flex items-center gap-2 text-sm font-medium"
+                    className="flex items-center gap-2 text-l font-bold"
                 >
                     {[
                         ["/resume-builder", "Builder"],
@@ -42,7 +42,7 @@ export const TopNavBar = () => {
                     ].map(([href, text]) => (
                         <Link
                             key={text}
-                            className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4"
+                            className="rounded-md px-1.5 py-2 text-gray-700 bg-slate-300 hover:bg-blue-300 focus-visible:bg-gray-300 lg:px-8"
                             href={href}
                         >
                             {text}
