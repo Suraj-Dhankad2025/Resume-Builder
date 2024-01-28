@@ -1,5 +1,5 @@
 import { cx } from "../lib/cx";
-import { ToolTip } from "./ToolTip";
+import { ToolTip } from "./Tooltip";
 
 type ReactButtonProps = React.ComponentProps<"button">;
 type ReactAnchorProps = React.ComponentProps<"a">;

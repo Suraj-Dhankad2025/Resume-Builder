@@ -5,7 +5,7 @@ import {
   selectShowBulletPoints,
   selectThemeColor,
 } from "@/app/lib/redux/settingsSlice";
-import { Form } from "./Form";
+import { Form } from "./Form/Index";
 import { BulletListTextArea, InputGroupWrapper } from "./Form/InputGroup";
 import { BulletListIconButton } from "./Form/IconButton";
 import { FeaturedSkillInput } from "./Form/FeaturedSkillInput";

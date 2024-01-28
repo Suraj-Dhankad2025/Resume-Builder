@@ -3,7 +3,7 @@ import {
   changeWorkExperience,
   selectWorkExperiences,
 } from "@/app/lib/redux/resumeSlice";
-import { Form, FormSection } from "./Form";
+import { Form, FormSection } from "./Form/Index";
 import { CreateHandleChangeArgsWithDescriptions } from "./types";
 import { ResumeWorkExperience } from "@/app/lib/redux/types";
 import { BulletListTextArea, Input } from "./Form/InputGroup";

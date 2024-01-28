@@ -7,7 +7,7 @@ import {
   changeShowBulletPoints,
   selectShowBulletPoints,
 } from "@/app/lib/redux/settingsSlice";
-import { Form, FormSection } from "./Form";
+import { Form, FormSection } from "./Form/Index";
 import { CreateHandleChangeArgsWithDescriptions } from "./types";
 import { ResumeEducation } from "@/app/lib/redux/types";
 import { BulletListTextArea, Input } from "./Form/InputGroup";
@@ -77,7 +77,7 @@ export const EducationsForm = () => {
               label="GPA"
               labelClassName="col-span-2"
               name="gpa"
-              placeholder="8.55"
+              placeholder="9.2"
               value={gpa}
               onChange={handleWorkExperienceChange}
             />

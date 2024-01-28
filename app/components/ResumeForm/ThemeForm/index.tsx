@@ -5,7 +5,7 @@ import {
   changeSettings,
   selectSettings,
 } from "@/app/lib/redux/settingsSlice";
-import { BaseForm } from "../Form";
+import { BaseForm } from "../Form/Index";
 import { Cog6ToothIcon } from "@heroicons/react/24/outline";
 import { InlineInput } from "./InlineInput";
 import { THEME_COLORS } from "./Constants";

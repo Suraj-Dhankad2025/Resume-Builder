@@ -9,7 +9,7 @@ import {
   changeShowBulletPoints,
   selectShowBulletPoints,
 } from "@/app/lib/redux/settingsSlice";
-import { Form, FormSection } from "./Form";
+import { Form, FormSection } from "./Form/Index";
 import { CreateHandleChangeArgsWithDescriptions } from "./types";
 import { ResumeEducation, ResumeProject } from "@/app/lib/redux/types";
 import { BulletListTextArea, Input } from "./Form/InputGroup";

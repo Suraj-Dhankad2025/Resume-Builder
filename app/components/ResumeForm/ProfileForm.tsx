@@ -1,6 +1,6 @@
 import { useAppDispatch, useAppSelector } from "@/app/lib/redux/hooks";
 import { changeProfile, selectProfile } from "@/app/lib/redux/resumeSlice";
-import { BaseForm } from "./Form";
+import  {BaseForm}  from "./Form/Index";
 import { Input } from "./Form/InputGroup";
 import { ResumeProfile } from "@/app/lib/redux/types";
 
